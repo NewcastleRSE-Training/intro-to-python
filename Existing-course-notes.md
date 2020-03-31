@@ -34,3 +34,12 @@ __[James Hetherington](https://alan-turing-institute.github.io/rsd-engineeringco
 - classes  
 (more beyond beginner)
 
+__[Python for Humanities](https://carpentries-incubator.github.io/python-humanities-lesson/setup/)__  
+Setup: install Anaconda, required packages and create blank Jupyter notebook
+- Why use python and what is an interpretor
+- Data types, operators, lists, loops
+- importing data and using libraries (some e.gs of DH data) -> maybe good for intermediate course from here on
+- manipulating data and Data Forms and pandas
+- workflows and automation
+- making plots
+- SQL
