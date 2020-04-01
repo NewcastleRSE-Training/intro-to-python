@@ -43,3 +43,18 @@ Setup: install Anaconda, required packages and create blank Jupyter notebook
 - workflows and automation
 - making plots
 - SQL
+
+__[SC Python](http://swcarpentry.github.io/python-novice-inflammation/index.html)__
+Setup: Anaconda, download data folders, choice to use jupyter notebook, IPython or plain-vanilla interpretor
+- Data types, variables
+- working with data
+- plotting data
+- loops
+- lists
+- multiple files
+- conditionals
+- functions
+- errors
+- defensive programming
+- debugging
+- command line
