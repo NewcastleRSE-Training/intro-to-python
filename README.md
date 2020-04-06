@@ -25,3 +25,12 @@ By the end of the session, participants will:
 
 # Participant instructions
 What participants need to do before attending...
+
+# Running Jupyter notebook locally
+Follow participant's install instructions (todo). Install extensionsconfig viewer using `conda install -c conda-forge jupyter_contrib_nbextensions` in Anaconda Prompt. You can then browse an enable extensions using the 'Nbextensions' tab or at localhost:8889/nbextensions.
+
+Install RISE (for presenting slides): `conda install rise`
+
+Currently in use: 'Exercise', RISE
+
+
