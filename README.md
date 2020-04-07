@@ -33,4 +33,8 @@ Install RISE (for presenting slides): `conda install rise`
 
 Currently in use: 'Exercise', RISE
 
-
+# Data sources
+Rainfall: http://environment.data.gov.uk/flood-monitoring/id/stations?parameter=rainfall 
+Flood measurement stations: http://environment.data.gov.uk/flood-monitoring/id/stations?parameter=flow
+Stop and searches: https://data.police.uk/api/stops-street?poly=52.2,0.5:52.8,0.2:52.1,0.88&date=2018-06
+DaVinci: https://www.bl.uk/collection-metadata/downloads
