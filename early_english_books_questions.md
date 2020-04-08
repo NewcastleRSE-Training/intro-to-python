@@ -22,5 +22,5 @@ b. What is the mean page count for books grouped by publishing location and date
 
 ### 4. Conditional selections
 a.View only entries that were published in London. If you need to remind yourself of the data, you can print the first few lines to the   screen again.  
-b. Save the results in a variable called `new_df` (new DataFrame) and view summary information to see how many entries there are for London.  
+b. Save the results in a variable called `new_df` (new DataFrame) and view summary information to see how many entries there are.
 c. Out of the entries in your new DataFrame, now narrow the selection to those that have a page count equal to or over 46 and print the first 3 entries to the screen using the method ```.head(3)```.    
