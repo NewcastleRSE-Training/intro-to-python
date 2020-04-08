@@ -13,7 +13,8 @@ b. How many unique values are there in this column? You can look back at the pre
 
 ### 2. Basic statistics
 a. See what happens when you run the ```.describe()``` command with a numerical and non-numerical column.
-b. How many pages does the longest book in the data have?
+2b. What is the most recent date? 
+For the purposes of this exercise treat the Date column as containing numbers. We could convert this column to a timestamp if we had a full date for each entry.
 
 ### 3. Grouping and aggregating
 a. What is the mean page count for books published in Amsterdam? Hint: begin by creating data that is grouped into publishing location. 
