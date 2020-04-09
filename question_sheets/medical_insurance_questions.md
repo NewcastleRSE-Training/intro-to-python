@@ -2,7 +2,7 @@
 
 The filename for your data is ```medical_insurance```.
 
-Dataset sourced from: https://www.kaggle.com/datasets
+Dataset sourced from: https://www.kaggle.com/datasets. It has been edited for the purposes of this exercise. 
 
 ## Exercises
 These exercises tie in with the notes in your notebook. Make sure you read the information in the notebook for each section of questions before attempting them. There are code blocks already created telling you where to write the code for each question.
