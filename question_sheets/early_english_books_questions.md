@@ -8,12 +8,12 @@ todo - say where data is from
 These exercises tie in with the notes in your notebook. Make sure you read the information in the notebook for each section of questions before attempting them. There are code blocks already created telling you where to write the code for each question.
 
 ### 1. Unique values
-a. Create a list of the unique values that are in one of the columns.  
+a. Create a list of the unique values that are in one of the columns and print to the screen.  
 b. How many unique values are there in this column? You can look back at the previous notebook if you need a reminder how to do this.  
 
 ### 2. Basic statistics
-a. See what happens when you run the ```.describe()``` command with a numerical and non-numerical column.
-2b. What is the most recent date? 
+a. See what happens when you run the ```.describe()``` command with a numerical and non-numerical column.  
+b. What is the most recent date? 
 For the purposes of this exercise treat the Date column as containing numbers. We could convert this column to a timestamp if we had a full date for each entry.
 
 ### 3. Grouping and aggregating
