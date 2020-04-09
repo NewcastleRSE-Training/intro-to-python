@@ -1,4 +1,4 @@
-# Instructions for Notebook 4: Introduction to Working with Data
+# Notebook 4: Introduction to Working with Data
 
 The filename for your data is ```da_vinci```.
 
