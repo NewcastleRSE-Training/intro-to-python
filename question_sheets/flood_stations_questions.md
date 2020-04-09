@@ -16,7 +16,7 @@ a. See what happens when you run the ```.describe()``` command with a numerical 
 b. What is the largest number in the 'limit' column?
 
 ### 3. Grouping and aggregating
-a. Print to the screen the mean limits grouped by catchment. 
+a. Print to the screen the max limits grouped by catchment. 
 b. What is the mean of numerical columns for stations gruped by river name and whether they are active?
 
 ### 4. Conditional selections
