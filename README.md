@@ -53,3 +53,5 @@ Install RISE (for presenting slides): `conda install rise`
 
 Extensions currently in use: 'Exercise', RISE
 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NewcastleRSE-Training/intro-to-python.git/master)
