@@ -4,5 +4,6 @@ dependencies:
   - python
   - pandas
   - rise
+  - pip
   - pip:
     - jupyter-contrib-nbextensions
