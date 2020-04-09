@@ -53,7 +53,7 @@ The exercises in this section are intended to be self directed with participants
   [Questions](./question_sheets/flood_stations.md).   
   [Answers](./facilitator_docs/Answers_flood_stations.ipynb).  
   4. medical_insurance: Medical insurance cost data from user on [Kaggle](https://www.kaggle.com/mirichoi0218/insurance).  
-    [Questions](./question_sheets/medical_insurance.md).   
+    [Questions](./question_sheets/medical_insurance_questions.md).   
   [Answers](./facilitator_docs/Answers_medical_insurance.ipynb).  
   5. stop_search: Stop and search data from [UK Police API](https://data.police.uk/docs/).  
     [Questions](./question_sheets/stop_search_questions.md).   
