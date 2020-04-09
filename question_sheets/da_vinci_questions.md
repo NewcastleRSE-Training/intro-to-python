@@ -1,6 +1,6 @@
 # Instructions for Notebook 4: Introduction to Working with Data
 
-The filename for your data is ```DaVinci```.
+The filename for your data is ```da_vinci```.
 
 This data came from a British Library dataset describing their DaVinci collection, although it has been edited for the purposes of this exercise. You can view more here: https://www.bl.uk/collection-metadata/downloads
 
