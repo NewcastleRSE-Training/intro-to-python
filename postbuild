@@ -1,3 +1,2 @@
 jupyter contrib nbextension install --user
-jupyter nbextension enable exercise/main
-jupyter nbextension enable rise/main
+jupyter nbextension enable exercise
