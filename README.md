@@ -13,11 +13,11 @@ By the end of the session, participants will:
 - Have experience of manipulating data stored in a CSV format
 
 ## Lesson outline
-Notebook 1 - Introduction 
-Notebook 2 - Data types 
-Notebook 3 - Comparisons, Loops and Lists 40 mins
-Notebook 4 - Introduction to working with data 40 mins (could be extended by adding content and extending question sheets)
-[Lesson plan](./lesson-plam.md)
+* Notebook 1 - Introduction 
+* Notebook 2 - Data types 
+* Notebook 3 - Comparisons, Loops and Lists
+* Notebook 4 - Introduction to working with data  
+[Lesson plan](./lesson-plan.md)  
 
 ## Materials required
 * 4 Jupyter notebooks for instructor to present and participants to use as workbooks
