@@ -8,7 +8,7 @@ This data came from a British Library dataset describing their DaVinci collectio
 These exercises tie in with the notes in your notebook. Make sure you read the information in the notebook for each section of questions before attempting them. There are code blocks already created telling you where to write the code for each question.
 
 ### 1. Unique values
-a. Create a list of the unique values that are in one of the columns.  
+a. Create a list of the unique values that are in one of the columns and print the results.  
 b. How many unique values are there in this column? You can look back at the previous notebook if you need a reminder how to do this.  
 
 ### 2. Basic statistics
