@@ -40,8 +40,6 @@ The exercises in this section are intended to be self directed with participants
 * First steps in pandas
 * Exercises
 
-todo: extended activities if participants finish early
-
 ## Materials required (including data) (todo: link to locations and standard filenames)
 * 4 Jupyter notebooks for instructor to present and participants to use as workbooks
 * Dataset in CSV format chosen to be relevant to group from this selection:
