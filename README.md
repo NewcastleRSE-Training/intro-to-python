@@ -43,7 +43,7 @@ The exercises in this section are intended to be self directed with participants
 ## Materials required
 * 4 Jupyter notebooks for instructor to present and participants to use as workbooks
 * Dataset in CSV format chosen to be relevant to group from this selection (note datat has been edited to make it suitable for the exercises):
-  1. early_english_books: [English Early Books Online](https://eebo.chadwyck.com/home) taken from a [Software Carpentry community developed course](https://carpentries-incubator.github.io/python-humanities-lesson/). [Questions](./question_sheets/early_english_books_questions.md). Answers.
+  1. early_english_books: [English Early Books Online](https://eebo.chadwyck.com/home) taken from a [Software Carpentry community developed course](https://carpentries-incubator.github.io/python-humanities-lesson/). [Questions](./question_sheets/early_english_books_questions.md). [Answers](./facilitator_docs/Answers (early_english_books).ipynb).
   2. da_vinci: metadata from [British Library](https://www.bl.uk/collection-metadata/downloads) collection
   3. flood_stations: data about flood measurement stations from the [Environment Agency](https://environment.data.gov.uk/flood-monitoring/doc/reference#stations)
   4. medical_insurance: Medical insurance cost data from user on [Kaggle](https://www.kaggle.com/mirichoi0218/insurance)
