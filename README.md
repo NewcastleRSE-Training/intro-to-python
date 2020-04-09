@@ -45,9 +45,9 @@ The exercises in this section are intended to be self directed with participants
 * Dataset in CSV format chosen to be relevant to group from this selection (note datat has been edited to make it suitable for the exercises):
   * EEBO: [English Early Books Online](https://eebo.chadwyck.com/home) taken from a [Software Carpentry community developed course](https://carpentries-incubator.github.io/python-humanities-lesson/).
   * DaVinci: metadata from [British Library](https://www.bl.uk/collection-metadata/downloads) collection
-  * Flood Measurement Stations: data from the [Environment Agency](https://environment.data.gov.uk/flood-monitoring/doc/reference#stations)
-  * Medical Insurance Costs: data from https://www.kaggle.com/mirichoi0218/insurance
-  * more to be added...
+  * Flood measurement stations: data from the [Environment Agency](https://environment.data.gov.uk/flood-monitoring/doc/reference#stations)
+  * Medical insurance costs: data from user on [Kaggle](https://www.kaggle.com/mirichoi0218/insurance)
+  * Stop and searches: data from [UK Police API](https://data.police.uk/docs/)
 * 'Answers' Jupyter notebook for chosen dataset for facilitator's reference (facilitator may want to print for reference during session)
 * Question sheet for chosen dataset printed for participants
 
