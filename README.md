@@ -43,11 +43,21 @@ The exercises in this section are intended to be self directed with participants
 ## Materials required
 * 4 Jupyter notebooks for instructor to present and participants to use as workbooks
 * Dataset in CSV format chosen to be relevant to group from this selection (note datat has been edited to make it suitable for the exercises):
-  1. early_english_books: [English Early Books Online](https://eebo.chadwyck.com/home) taken from a [Software Carpentry community developed course](https://carpentries-incubator.github.io/python-humanities-lesson/). [Questions](./question_sheets/early_english_books_questions.md). [Answers](./facilitator_docs/Answers (early_english_books).ipynb).
-  2. da_vinci: metadata from [British Library](https://www.bl.uk/collection-metadata/downloads) collection
-  3. flood_stations: data about flood measurement stations from the [Environment Agency](https://environment.data.gov.uk/flood-monitoring/doc/reference#stations)
-  4. medical_insurance: Medical insurance cost data from user on [Kaggle](https://www.kaggle.com/mirichoi0218/insurance)
-  5. stop_search: Stop and search data from [UK Police API](https://data.police.uk/docs/)
+  1. early_english_books: [English Early Books Online](https://eebo.chadwyck.com/home) taken from a [Software Carpentry community developed course](https://carpentries-incubator.github.io/python-humanities-lesson/).  
+  [Questions](./question_sheets/early_english_books_questions.md).   
+  [Answers](./facilitator_docs/Answers_early_english_books.ipynb).  
+  2. da_vinci: metadata from [British Library](https://www.bl.uk/collection-metadata/downloads) collection.  
+  [Questions](./question_sheets/da_vinci_questions.md).   
+  [Answers](./facilitator_docs/Answers_da_vinci.ipynb).  
+  3. flood_stations: data about flood measurement stations from the [Environment Agency](https://environment.data.gov.uk/flood-monitoring/doc/reference#stations).   
+  [Questions](./question_sheets/flood_stations.md).   
+  [Answers](./facilitator_docs/Answers_flood_stations.ipynb).  
+  4. medical_insurance: Medical insurance cost data from user on [Kaggle](https://www.kaggle.com/mirichoi0218/insurance).  
+    [Questions](./question_sheets/medical_insurance.md).   
+  [Answers](./facilitator_docs/Answers_medical_insurance.ipynb).  
+  5. stop_search: Stop and search data from [UK Police API](https://data.police.uk/docs/).  
+    [Questions](./question_sheets/stop_search_questions.md).   
+  [Answers](./facilitator_docs/Answers_stop_search.ipynb).  
 * 'Answers' Jupyter notebook for chosen dataset for facilitator's reference (facilitator may want to print for reference during session)
 * Question sheet for chosen dataset printed for participants
 
