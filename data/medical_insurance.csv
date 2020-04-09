@@ -1,7 +1,7 @@
 identifier,age,sex,bmi,children,smoker,region,charges
 880,19,female,27.9,0,yes,southwest,16884.92
-881,18,male,33.77,1,no,southeast,1725.55
-882,28,male,33.0,3,no,southeast,4449.46
+881,18,male,,1,no,southeast,1725.55
+882,28,male,33,3,no,southeast,4449.46
 883,33,male,22.705,0,no,northwest,21984.47
 884,32,male,28.88,0,no,northwest,3866.86
 885,31,female,25.74,0,no,southeast,3756.62
@@ -28,7 +28,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 906,63,female,23.085,0,no,northeast,14451.84
 907,55,female,32.775,2,no,northwest,12268.63
 908,23,male,17.385,1,no,northwest,2775.19
-909,31,male,36.3,2,yes,southwest,38711.0
+909,31,male,36.3,2,yes,southwest,38711
 910,22,male,35.6,0,yes,southwest,35585.58
 911,18,female,26.315,0,no,northeast,2198.19
 912,19,female,28.6,5,no,southwest,4687.8
@@ -51,7 +51,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 929,36,male,35.2,1,yes,southeast,38709.18
 930,18,female,35.625,0,no,northeast,2211.13
 931,21,female,33.63,2,no,northwest,3579.83
-932,48,male,28.0,1,yes,southwest,23568.27
+932,48,male,28,1,yes,southwest,23568.27
 933,36,male,34.43,0,yes,southeast,37742.58
 934,40,female,28.69,3,no,northwest,8059.68
 935,58,male,36.955,2,yes,northwest,47496.49
@@ -114,7 +114,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 992,37,male,30.8,0,no,southwest,4646.76
 993,21,female,35.72,0,no,northwest,2404.73
 994,52,male,32.205,3,no,northeast,11488.32
-995,60,male,28.595,0,no,northeast,30260.0
+995,60,male,28.595,0,no,northeast,30260
 996,58,male,49.06,0,no,southeast,11381.33
 997,29,female,27.94,1,yes,southeast,19107.78
 998,49,female,27.17,0,no,southeast,8601.33
@@ -138,7 +138,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1016,19,male,34.1,0,no,southwest,1261.44
 1017,22,male,25.175,0,no,northwest,2045.69
 1018,54,female,31.9,3,no,southeast,27322.73
-1019,22,female,36.0,0,no,southwest,2166.73
+1019,22,female,36,0,no,southwest,2166.73
 1020,34,male,22.42,2,no,northeast,27375.9
 1021,26,male,32.49,1,no,northeast,3490.55
 1022,34,male,25.3,2,yes,southeast,18972.49
@@ -165,7 +165,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1043,32,female,29.8,2,no,southwest,5152.13
 1044,37,male,29.64,0,no,northwest,5028.15
 1045,47,male,28.215,4,no,northeast,10407.09
-1046,20,female,37.0,5,no,southwest,4830.63
+1046,20,female,37,5,no,southwest,4830.63
 1047,32,female,33.155,3,no,northwest,6128.8
 1048,19,female,31.825,1,no,northwest,2719.28
 1049,27,male,18.905,3,no,northeast,4827.9
@@ -209,7 +209,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1087,35,male,27.74,2,yes,northeast,20984.09
 1088,63,female,31.8,0,no,southwest,13880.95
 1089,40,male,41.23,1,no,northeast,6610.11
-1090,20,male,33.0,1,no,southwest,1980.07
+1090,20,male,33,1,no,southwest,1980.07
 1091,40,male,30.875,4,no,northwest,8162.72
 1092,24,male,28.5,2,no,northwest,3537.7
 1093,34,female,26.73,1,no,southeast,5002.78
@@ -263,7 +263,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1141,20,female,26.84,1,yes,southeast,17085.27
 1142,52,male,24.32,3,yes,northeast,24869.84
 1143,19,male,36.955,0,yes,northwest,36219.41
-1144,53,female,38.06,3,no,southeast,20463.0
+1144,53,female,38.06,3,no,southeast,20463
 1145,46,male,42.35,3,yes,southeast,46151.12
 1146,40,male,19.8,1,yes,southeast,17179.52
 1147,59,female,32.395,3,no,northeast,14590.63
@@ -302,8 +302,8 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1180,36,male,27.55,3,no,northeast,6746.74
 1181,53,female,22.61,3,yes,northeast,24873.38
 1182,56,female,37.51,2,no,southeast,12265.51
-1183,28,female,33.0,2,no,southeast,4349.46
-1184,57,female,38.0,2,no,southwest,12646.21
+1183,28,female,33,2,no,southeast,4349.46
+1184,57,female,38,2,no,southwest,12646.21
 1185,29,male,33.345,2,no,northwest,19442.35
 1186,28,female,27.5,2,no,southwest,20177.67
 1187,30,female,33.33,1,no,southeast,4151.03
@@ -345,7 +345,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1223,63,male,36.765,0,no,northeast,13981.85
 1224,49,female,41.47,4,no,southeast,10977.21
 1225,34,female,29.26,3,no,southeast,6184.3
-1226,33,male,35.75,2,no,southeast,4890.0
+1226,33,male,35.75,2,no,southeast,4890
 1227,46,male,33.345,1,no,northeast,8334.46
 1228,36,female,29.92,1,no,southeast,5478.04
 1229,19,male,27.835,0,no,northwest,1635.73
@@ -381,7 +381,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1259,62,male,31.46,1,no,southeast,27000.98
 1260,27,female,17.955,2,yes,northeast,15006.58
 1261,55,male,30.685,0,yes,northeast,42303.69
-1262,55,male,33.0,0,no,southeast,20781.49
+1262,55,male,33,0,no,southeast,20781.49
 1263,35,female,43.34,2,no,southeast,5846.92
 1264,44,male,22.135,2,no,northeast,8302.54
 1265,19,male,34.4,0,no,southwest,1261.86
@@ -393,9 +393,9 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1271,19,female,37.43,0,no,northwest,2138.07
 1272,48,male,31.445,1,no,northeast,8964.06
 1273,49,male,31.35,1,no,northeast,9290.14
-1274,46,female,32.3,2,no,northeast,9411.0
+1274,46,female,32.3,2,no,northeast,9411
 1275,46,male,19.855,0,no,northwest,7526.71
-1276,43,female,34.4,3,no,southwest,8522.0
+1276,43,female,34.4,3,no,southwest,8522
 1277,21,male,31.02,0,no,southeast,16586.5
 1278,64,male,25.6,2,no,southwest,14988.43
 1279,18,female,38.17,0,no,southeast,1631.67
@@ -445,7 +445,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1323,59,female,36.52,1,no,southeast,28287.9
 1324,56,male,26.695,1,yes,northwest,26109.33
 1325,45,female,33.1,0,no,southwest,7345.08
-1326,60,male,29.64,0,no,northeast,12731.0
+1326,60,male,29.64,0,no,northeast,12731
 1327,56,female,25.65,0,no,northwest,11454.02
 1328,40,female,29.6,0,no,southwest,5910.94
 1329,35,male,38.6,1,no,southwest,4762.33
@@ -454,13 +454,13 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1332,24,male,23.4,0,no,southwest,1969.61
 1333,20,male,29.735,0,no,northwest,1769.53
 1334,32,male,46.53,2,no,southeast,4686.39
-1335,59,male,37.4,0,no,southwest,21797.0
+1335,59,male,37.4,0,no,southwest,21797
 1336,55,female,30.14,2,no,southeast,11881.97
 1337,57,female,30.495,0,no,northwest,11840.78
 1338,56,male,39.6,0,no,southwest,10601.41
-1339,40,female,33.0,3,no,southeast,7682.67
+1339,40,female,33,3,no,southeast,7682.67
 1340,49,female,36.63,3,no,southeast,10381.48
-1341,42,male,30.0,0,yes,southwest,22144.03
+1341,42,male,30,0,yes,southwest,22144.03
 1342,62,female,38.095,2,no,northeast,15230.32
 1343,56,male,25.935,0,no,northeast,11165.42
 1344,19,male,25.175,0,no,northwest,1632.04
@@ -509,7 +509,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1387,21,male,23.75,2,no,northwest,3077.1
 1388,24,female,25.27,0,no,northeast,3044.21
 1389,57,female,28.7,0,no,southwest,11455.28
-1390,56,male,32.11,1,no,northeast,11763.0
+1390,56,male,32.11,1,no,northeast,11763
 1391,27,male,33.66,0,no,southeast,2498.41
 1392,51,male,22.42,0,no,northeast,9361.33
 1393,19,male,30.4,0,no,southwest,1256.3
@@ -517,7 +517,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1395,58,male,35.7,0,no,southwest,11362.75
 1396,20,male,35.31,1,no,southeast,27724.29
 1397,45,male,30.495,2,no,northwest,8413.46
-1398,35,female,31.0,1,no,southwest,5240.77
+1398,35,female,31,1,no,southwest,5240.77
 1399,31,male,30.875,0,no,northeast,3857.76
 1400,50,female,27.36,0,no,northeast,25656.58
 1401,32,female,44.22,0,no,southeast,3994.18
@@ -528,7 +528,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1406,19,female,30.59,2,no,northwest,24059.68
 1407,51,female,25.8,1,no,southwest,9861.02
 1408,46,male,39.425,1,no,northeast,8342.91
-1409,18,male,25.46,0,no,northeast,1708.0
+1409,18,male,25.46,0,no,northeast,1708
 1410,57,male,42.13,1,yes,southeast,48675.52
 1411,62,female,31.73,0,no,northeast,14043.48
 1412,59,male,29.7,2,no,southeast,12925.89
@@ -539,7 +539,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1417,46,female,30.2,2,no,southwest,8825.09
 1418,46,female,28.05,1,no,southeast,8233.1
 1419,53,male,31.35,0,no,southeast,27346.04
-1420,34,female,38.0,3,no,southwest,6196.45
+1420,34,female,38,3,no,southwest,6196.45
 1421,20,female,31.79,2,no,southeast,3056.39
 1422,63,female,36.3,0,no,southeast,13887.2
 1423,54,female,47.41,0,yes,southeast,63770.43
@@ -572,10 +572,10 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1450,31,female,29.1,0,no,southwest,3761.29
 1451,18,female,37.29,1,no,southeast,2219.45
 1452,30,female,43.12,2,no,southeast,4753.64
-1453,62,female,36.86,1,no,northeast,31620.0
+1453,62,female,36.86,1,no,northeast,31620
 1454,57,female,34.295,2,no,northeast,13224.06
 1455,58,female,27.17,0,no,northwest,12222.9
-1456,22,male,26.84,0,no,southeast,1665.0
+1456,22,male,26.84,0,no,southeast,1665
 1457,31,female,38.095,1,yes,northeast,58571.07
 1458,52,male,30.2,1,no,southwest,9724.53
 1459,25,female,23.465,0,no,northeast,3206.49
@@ -589,7 +589,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1467,34,female,30.21,1,yes,northwest,43943.88
 1468,61,female,35.91,0,no,northeast,13635.64
 1469,38,female,30.69,1,no,southeast,5976.83
-1470,58,female,29.0,0,no,southwest,11842.44
+1470,58,female,29,0,no,southwest,11842.44
 1471,47,male,19.57,1,no,northwest,8428.07
 1472,20,male,31.13,2,no,southeast,2566.47
 1473,21,female,21.85,1,yes,northeast,15359.1
@@ -612,8 +612,8 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1490,47,female,29.37,1,no,southeast,8547.69
 1491,38,female,34.8,2,no,southwest,6571.54
 1492,18,female,33.155,0,no,northeast,2207.7
-1493,34,female,19.0,3,no,northeast,6753.04
-1494,20,female,33.0,0,no,southeast,1880.07
+1493,34,female,19,3,no,northeast,6753.04
+1494,20,female,33,0,no,southeast,1880.07
 1495,47,female,36.63,1,yes,southeast,42969.85
 1496,56,female,28.595,0,no,northeast,11658.12
 1497,49,male,25.6,2,yes,southwest,23306.55
@@ -627,7 +627,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1505,29,female,26.03,0,no,northwest,3736.46
 1506,36,male,28.88,3,no,northeast,6748.59
 1507,33,male,42.46,1,no,southeast,11326.71
-1508,58,male,38.0,0,no,southwest,11365.95
+1508,58,male,38,0,no,southwest,11365.95
 1509,44,female,38.95,0,yes,northwest,42983.46
 1510,53,male,36.1,1,no,southwest,10085.85
 1511,24,male,29.3,0,no,southwest,1977.82
@@ -693,7 +693,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1571,47,male,36.2,1,no,southwest,8068.19
 1572,20,male,32.395,1,no,northwest,2362.23
 1573,24,male,23.655,0,no,northwest,2352.97
-1574,27,female,34.8,1,no,southwest,3578.0
+1574,27,female,34.8,1,no,southwest,3578
 1575,26,female,40.185,0,no,northwest,3201.25
 1576,53,female,32.3,2,no,northeast,29186.48
 1577,41,male,35.75,1,yes,southeast,40273.65
@@ -729,7 +729,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1607,29,female,21.755,1,yes,northeast,16657.72
 1608,18,female,40.28,0,no,northeast,2217.6
 1609,41,female,36.08,1,no,southeast,6781.35
-1610,35,male,24.42,3,yes,southeast,19362.0
+1610,35,male,24.42,3,yes,southeast,19362
 1611,53,male,21.4,1,no,southwest,10065.41
 1612,24,female,30.1,3,no,southwest,4234.93
 1613,48,female,27.265,1,no,northeast,9447.25
@@ -745,9 +745,9 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1623,31,female,26.62,0,no,southeast,3757.84
 1624,50,male,26.41,0,no,northwest,8827.21
 1625,50,female,30.115,1,no,northwest,9910.36
-1626,34,male,27.0,2,no,southwest,11737.85
+1626,34,male,27,2,no,southwest,11737.85
 1627,19,male,21.755,0,no,northwest,1627.28
-1628,47,female,36.0,1,no,southwest,8556.91
+1628,47,female,36,1,no,southwest,8556.91
 1629,28,male,30.875,0,no,northwest,3062.51
 1630,37,female,26.4,0,yes,southeast,19539.24
 1631,21,male,28.975,0,no,northwest,1906.36
@@ -766,7 +766,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1644,45,female,25.175,2,no,northeast,9095.07
 1645,57,female,31.825,0,no,northwest,11842.62
 1646,47,male,32.3,1,no,southwest,8062.76
-1647,42,female,29.0,1,no,southwest,7050.64
+1647,42,female,29,1,no,southwest,7050.64
 1648,64,female,39.7,0,no,southwest,14319.03
 1649,38,female,19.475,2,no,northwest,6933.24
 1650,61,male,36.1,3,no,southwest,27941.29
@@ -860,7 +860,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1738,25,female,32.23,1,no,southeast,18218.16
 1739,57,male,28.1,0,no,southwest,10965.45
 1740,37,female,47.6,2,yes,southwest,46113.51
-1741,38,female,28.0,3,no,southwest,7151.09
+1741,38,female,28,3,no,southwest,7151.09
 1742,55,female,33.535,2,no,northwest,12269.69
 1743,36,female,19.855,0,no,northeast,5458.05
 1744,51,male,25.4,0,no,southwest,8782.47
@@ -893,8 +893,8 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1771,36,female,29.04,4,no,southeast,7243.81
 1772,54,male,24.035,0,no,northeast,10422.92
 1773,47,male,38.94,2,yes,southeast,44202.65
-1774,62,male,32.11,0,no,northeast,13555.0
-1775,61,female,44.0,0,no,southwest,13063.88
+1774,62,male,32.11,0,no,northeast,13555
+1775,61,female,44,0,no,southwest,13063.88
 1776,43,female,20.045,2,yes,northeast,19798.05
 1777,19,male,25.555,1,no,northwest,2221.56
 1778,18,female,40.26,0,no,southeast,1634.57
@@ -919,9 +919,9 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1797,45,male,22.895,0,yes,northeast,35069.37
 1798,61,female,28.2,0,no,southwest,13041.92
 1799,35,female,34.21,1,no,southeast,5245.23
-1800,62,female,25.0,0,no,southwest,13451.12
+1800,62,female,25,0,no,southwest,13451.12
 1801,62,female,33.2,0,no,southwest,13462.52
-1802,38,male,31.0,1,no,southwest,5488.26
+1802,38,male,31,1,no,southwest,5488.26
 1803,34,male,35.815,0,no,northwest,4320.41
 1804,43,male,23.2,0,no,southwest,6250.44
 1805,50,male,32.11,2,no,northeast,25333.33
@@ -937,7 +937,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1815,59,female,27.5,0,no,southwest,12233.83
 1816,44,male,29.735,2,no,northeast,32108.66
 1817,39,female,24.225,5,no,northwest,8965.8
-1818,18,male,26.18,2,no,southeast,2304.0
+1818,18,male,26.18,2,no,southeast,2304
 1819,53,male,29.48,0,no,southeast,9487.64
 1820,18,male,23.21,0,no,southeast,1121.87
 1821,50,female,46.09,1,no,southeast,9549.57
@@ -1019,7 +1019,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1897,26,female,34.2,2,no,southwest,3987.93
 1898,54,female,35.815,3,no,northwest,12495.29
 1899,21,female,32.68,2,no,northwest,26018.95
-1900,51,male,37.0,0,no,southwest,8798.59
+1900,51,male,37,0,no,southwest,8798.59
 1901,22,female,31.02,3,yes,southeast,35595.59
 1902,47,male,36.08,1,yes,southeast,42211.14
 1903,18,male,23.32,1,no,southeast,1711.03
@@ -1034,7 +1034,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1912,30,female,27.93,0,no,northeast,4137.52
 1913,18,male,21.565,0,yes,northeast,13747.87
 1914,61,male,38.38,0,no,northwest,12950.07
-1915,54,female,23.0,3,no,southwest,12094.48
+1915,54,female,23,3,no,southwest,12094.48
 1916,22,male,37.07,2,yes,southeast,37484.45
 1917,45,female,30.495,1,yes,northwest,39725.52
 1918,22,male,28.88,0,no,northeast,2250.84
@@ -1075,7 +1075,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1953,54,female,28.88,2,no,northeast,12096.65
 1954,60,female,18.335,0,no,northeast,13204.29
 1955,32,female,29.59,1,no,southeast,4562.84
-1956,47,female,32.0,1,no,southwest,8551.35
+1956,47,female,32,1,no,southwest,8551.35
 1957,21,male,26.03,0,no,northeast,2102.26
 1958,28,male,31.68,0,yes,southeast,34672.15
 1959,63,male,33.66,3,no,southeast,15161.53
@@ -1107,7 +1107,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 1985,54,female,31.24,0,no,southeast,10338.93
 1986,49,female,29.925,0,no,northwest,8988.16
 1987,50,female,26.22,2,no,northwest,10493.95
-1988,26,male,30.0,1,no,southwest,2904.09
+1988,26,male,30,1,no,southwest,2904.09
 1989,45,male,20.35,3,no,southeast,8605.36
 1990,54,female,32.3,1,no,northeast,11512.41
 1991,38,male,38.39,3,yes,southeast,41949.24
@@ -1135,7 +1135,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 2013,52,female,18.335,0,no,northwest,9991.04
 2014,28,male,33.82,0,no,northwest,19673.34
 2015,50,female,28.12,3,no,northwest,11085.59
-2016,44,female,25.0,1,no,southwest,7623.52
+2016,44,female,25,1,no,southwest,7623.52
 2017,26,female,22.23,0,no,northwest,3176.29
 2018,33,male,30.25,0,no,southeast,3704.35
 2019,19,female,32.49,0,yes,northwest,36898.73
@@ -1188,7 +1188,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 2066,20,male,35.625,3,yes,northwest,37465.34
 2067,62,female,32.68,0,no,northwest,13844.8
 2068,43,female,25.27,1,yes,northeast,21771.34
-2069,23,female,28.0,0,no,southwest,13126.68
+2069,23,female,28,0,no,southwest,13126.68
 2070,31,female,32.775,2,no,northwest,5327.4
 2071,41,female,21.755,1,no,northeast,13725.47
 2072,58,female,32.395,1,no,northeast,13019.16
@@ -1294,7 +1294,7 @@ identifier,age,sex,bmi,children,smoker,region,charges
 2172,21,male,23.21,0,no,southeast,1515.34
 2173,46,male,25.745,3,no,northwest,9301.89
 2174,58,male,25.175,0,no,northeast,11931.13
-2175,20,male,22.0,1,no,southwest,1964.78
+2175,20,male,22,1,no,southwest,1964.78
 2176,18,male,26.125,0,no,northeast,1708.93
 2177,28,female,26.51,2,no,southeast,4340.44
 2178,33,male,27.455,2,no,northwest,5261.47
