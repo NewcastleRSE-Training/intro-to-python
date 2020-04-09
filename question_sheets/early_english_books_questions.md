@@ -2,7 +2,7 @@
 
 The filename for your data is ```early_english_books```.
 
-todo - say where data is from
+This dataset is from Early English Books Online: https://eebo.chadwyck.com/home. It has been edited for the purposes of this exercise. 
 
 ## Exercises
 These exercises tie in with the notes in your notebook. Make sure you read the information in the notebook for each section of questions before attempting them. There are code blocks already created telling you where to write the code for each question.
