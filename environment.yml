@@ -6,4 +6,4 @@ dependencies:
   - rise
   - pip
   - pip:
-    - jupyter-contrib-nbextensions
+    - jupyter_contrib_nbextensions
