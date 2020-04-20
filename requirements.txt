@@ -1,2 +1,4 @@
+jupyter
 pandas
+rise
 jupyter_contrib_nbextensions
