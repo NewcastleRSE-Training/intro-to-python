@@ -40,6 +40,20 @@ By the end of the session, participants will:
 * 'Answers' Jupyter notebook for chosen dataset for facilitator's reference (facilitator may want to print for reference during session)
 * Question sheet for chosen dataset printed for participants
 
+## Facilitator instructions
+When running the notebooks to present you can either run them ocally on your own machine or access them through the same link as participants through binder:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NewcastleRSE-Training/intro-to-python.git/master)
+
+Before the session:
+1. If you have made changes to the notebooks stored in the repo, make sure you leave them in the correct state - all exercise solutions should be minimised. The cells should be left as all run but the output cleared so the answers can be revealed step-by-step. The push your changes. Binder builds whatever is on the master branch so work on a different branch until you're happy with your changes.
+2. Make sure you have clicked on the Binder link once after making any changes as the first build is slower than subsequent builds. 
+
+RISE slideshow controls:
+* Go to next slide or slide fragment using the space bar and go back using shift+space
+* Toggle between slideshow view and notebook view, Alt+r or click on the bar chart icon on the menu bar
+* To run a code block, click in the cell and use shift+enter
+
+Before presenting each notebooks, run all cells, then clear cell output.
 
 ## Participant instructions
 What participants need to do before attending...
@@ -51,7 +65,6 @@ Install extensionsconfig viewer using `conda install -c conda-forge jupyter_cont
 
 Install RISE (for presenting slides): `conda install rise`
 
-Extensions currently in use: 'Exercise', RISE
+Extensions currently in use: rubberband, exercise, and RISE
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NewcastleRSE-Training/intro-to-python.git/master)
