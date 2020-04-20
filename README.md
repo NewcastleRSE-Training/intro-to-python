@@ -41,8 +41,10 @@ By the end of the session, participants will:
 * Question sheet for chosen dataset printed for participants
 
 ## Facilitator instructions
-When running the notebooks to present you can either run them ocally on your own machine or access them through the same link as participants through binder:
+When running the notebooks to present you can either run them locally on your own machine or access them through the same link as participants through binder:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NewcastleRSE-Training/intro-to-python.git/master)
+
+Note: Currently, the exercise extension is not working in Binder. If this cannot be fixed, there could be separate student (no solutions) and facilitator (with solutions) notebooks, and the facilitator will present using a locally running version. 
 
 Before the session:
 1. If you have made changes to the notebooks stored in the repo, make sure you leave them in the correct state - all exercise solutions should be minimised. The cells should be left as all run but the output cleared so the answers can be revealed step-by-step. The push your changes. Binder builds whatever is on the master branch so work on a different branch until you're happy with your changes.
@@ -67,4 +69,5 @@ Install RISE (for presenting slides): `conda install rise`
 
 Extensions currently in use: rubberband, exercise, and RISE
 
-
+## Running through Google Colab
+This will be a backup should Binder be down. There will be a Google Colab version of the notebooks and a link for participants, plus instructions for the facilitator...
