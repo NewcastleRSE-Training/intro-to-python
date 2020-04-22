@@ -2,7 +2,7 @@
 Repo for all materials for Introduction to Python
 
 ## Intended audience
-This workshop is aimed at participants with little to no prior programming experience. Participants do not need to have completed any previous workshops with us. Participants should attend the Version Control workshop after completing Introduction to Python.
+This workshop is aimed at participants with little to no prior programming experience. Participants do not need to have completed any previous workshops with us. Participants should attend the Version Control workshop after completing Introduction to Python, and then progress to Intermediate Python.
 
 ## Lesson objectives
 By the end of the session, participants will:
@@ -54,6 +54,7 @@ RISE slideshow controls:
 * Toggle between slideshow view and notebook view, Alt+r or click on the bar chart icon on the menu bar. To close slideshow click the cross top left.
 * To run a code block, click in the cell and use shift+enter
 * There are navigation arrows bottom right of the slides
+* You can go full screen using F11 and scroll using your mouse button
 
 Before presenting each notebooks, run all cells, then clear cell output.
 
