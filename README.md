@@ -21,7 +21,7 @@ By the end of the session, participants will:
 
 ## Materials required
 * 4 Jupyter notebooks for instructor to present and participants to use as workbooks
-* Dataset in CSV format chosen to be relevant to group from this selection (note datat has been edited to make it suitable for the exercises):
+* Dataset, question sheets for participants (printed and digital), and answer notebook (for facilitator reference), for chosen dataset:
   1. early_english_books: [English Early Books Online](https://eebo.chadwyck.com/home) taken from a [Software Carpentry community developed course](https://carpentries-incubator.github.io/python-humanities-lesson/).  
   [Questions](./question_sheets/early_english_books_questions.md).   
   [Answers](./facilitator_docs/Answers_early_english_books.ipynb).  
@@ -37,14 +37,13 @@ By the end of the session, participants will:
   5. stop_search: Stop and search data from [UK Police API](https://data.police.uk/docs/).  
     [Questions](./question_sheets/stop_search_questions.md).   
   [Answers](./facilitator_docs/Answers_stop_search.ipynb).  
-* 'Answers' Jupyter notebook for chosen dataset for facilitator's reference (facilitator may want to print for reference during session)
-* Question sheet for chosen dataset printed for participants
+* [Exemplar solutions notebook](./facilitator_docs/exemplar_solutions_nbs_2+3) for notebooks 2 and 3 for facilitator reference if required. Faciliator may wish to make this availbale to participants for reference.
 
 ## Facilitator instructions
 When running the notebooks to present you can either run them locally on your own machine or access them through the same link as participants through binder:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NewcastleRSE-Training/intro-to-python.git/master)
 
-Note: Currently, the exercise extension is not working in Binder. If this cannot be fixed, there could be separate student (no solutions) and facilitator (with solutions) notebooks, and the facilitator will present using a locally running version. 
+Note: Currently, the exercise extension is not working in Binder and therefore solutions have been removed from the notebooks. 
 
 Before the session:
 1. If you have made changes to the notebooks stored in the repo, make sure you leave them in the correct state - all exercise solutions should be minimised. The cells should be left as all run but the output cleared so the answers can be revealed step-by-step. Additionally, turn off all cell toolbars and tags so you are left witha  clean view. The push your changes. Binder builds whatever is on the master branch so work on a different branch until you're happy with your changes.
@@ -67,7 +66,7 @@ Install extensionsconfig viewer using `conda install -c conda-forge jupyter_cont
 
 Install RISE (for presenting slides): `conda install rise`
 
-Extensions currently in use: rubberband, exercise, and RISE
+When we can use exercise extension with Binder, install rubberband and exercise extension. 
 
 ## Running through Google Colab
 This will be a backup should Binder be down. There will be a Google Colab version of the notebooks and a link for participants, plus instructions for the facilitator...
