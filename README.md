@@ -8,7 +8,7 @@ This workshop is aimed at participants with little to no prior programming exper
 By the end of the session, participants will:
 - Have a high level understanding of what code is
 - Recognise that there are many programming languages and that Python is a good place for beginners to start
-- Broadly appreciate why we are using a Jupyter notebook as an interpretor
+- Broadly appreciate why we are using a Jupyter notebook as an interpreter
 - Identify core programming concepts including data types, conditions, loops and lists
 - Have experience of manipulating data stored in a CSV format
 

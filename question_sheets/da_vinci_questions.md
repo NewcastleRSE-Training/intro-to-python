@@ -17,7 +17,7 @@ b. How many pages does the longest book in the data have?
 
 
 ### 4.3 Grouping and aggregating
-a. What is the mean page count for books by Alibizzi? Hint: begin by creating data that is grouped by author (the 'Name' column). 
+a. What is the mean page count for books by Albizzi? Hint: begin by creating data that is grouped by author (the 'Name' column). 
 b. What is the mean page count for books grouped by publishing location and date?   
 
 ### 4.4 Conditional selections
