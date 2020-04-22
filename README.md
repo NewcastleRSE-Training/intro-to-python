@@ -2,7 +2,11 @@
 Repo for all materials for Introduction to Python
 
 ## Intended audience
-This workshop is aimed at participants with little to no prior programming experience. Participants do not need to have completed any previous workshops with us. Participants should attend the Version Control workshop after completing Introduction to Python.
+This workshop is aimed at participants with little to no prior programming experience. Participants require a laptop of any operating system connected to the university wifi. We will be using a web browser to access what we need during the session. 
+
+TODO: list browsers tested on
+
+Participants do not need to have completed any previous workshops with us. Participants should attend the Version Control workshop after completing Introduction to Python. 
 
 ## Lesson objectives
 By the end of the session, participants will:
