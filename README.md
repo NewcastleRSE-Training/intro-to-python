@@ -51,8 +51,9 @@ Before the session:
 
 RISE slideshow controls:
 * Go to next slide or slide fragment using the space bar and go back using shift+space
-* Toggle between slideshow view and notebook view, Alt+r or click on the bar chart icon on the menu bar
+* Toggle between slideshow view and notebook view, Alt+r or click on the bar chart icon on the menu bar. To close slideshow click the cross top left.
 * To run a code block, click in the cell and use shift+enter
+* There are navigation arrows bottom right of the slides
 
 Before presenting each notebooks, run all cells, then clear cell output.
 
